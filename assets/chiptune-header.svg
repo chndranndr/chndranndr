@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Chandra Aji Anindra — Full Stack and Applied AI Engineer</title>
+  <desc id="desc">A dark chiptune-inspired pixel interface header with waveform and technology labels.</desc>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#080914"/>
+      <stop offset="0.55" stop-color="#111126"/>
+      <stop offset="1" stop-color="#090b18"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#2a2d4d" stroke-width="1" opacity="0.35"/>
+    </pattern>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.025"/>
+    </pattern>
+    <filter id="glow-cyan" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-pink" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#scan)"/>
+  <rect x="1" y="1" width="1198" height="358" rx="17" fill="none" stroke="#34375f" stroke-width="2"/>
+
+  <!-- top console bar -->
+  <rect x="34" y="26" width="1132" height="40" rx="7" fill="#0e1020" stroke="#2f3357"/>
+  <rect x="50" y="40" width="12" height="12" fill="#ff4d9a"/>
+  <rect x="70" y="40" width="12" height="12" fill="#ffd166"/>
+  <rect x="90" y="40" width="12" height="12" fill="#58f5c3"/>
+  <text x="116" y="52" fill="#8589aa" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="14" letter-spacing="2">CHNDRANNDR.EXE / PLAYER_01</text>
+  <text x="1105" y="52" text-anchor="end" fill="#58f5c3" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13">● ONLINE</text>
+
+  <!-- pixel C monogram -->
+  <g transform="translate(58 105)" filter="url(#glow-cyan)">
+    <rect x="20" y="0" width="60" height="20" fill="#5ee7ff"/>
+    <rect x="0" y="20" width="20" height="80" fill="#5ee7ff"/>
+    <rect x="20" y="100" width="60" height="20" fill="#5ee7ff"/>
+    <rect x="80" y="20" width="20" height="20" fill="#5ee7ff"/>
+    <rect x="80" y="80" width="20" height="20" fill="#5ee7ff"/>
+    <rect x="20" y="20" width="20" height="20" fill="#a36cff" opacity="0.9"/>
+    <rect x="20" y="80" width="20" height="20" fill="#ff4d9a" opacity="0.9"/>
+  </g>
+
+  <!-- identity -->
+  <text x="190" y="125" fill="#f7f7ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="42" font-weight="700" letter-spacing="1">CHANDRA AJI ANINDRA</text>
+  <text x="192" y="163" fill="#5ee7ff" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="20" letter-spacing="2">FULL STACK ENGINEER / APPLIED AI</text>
+  <text x="192" y="194" fill="#a8abc4" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="15">production systems • distributed backends • AI-native products</text>
+
+  <!-- waveform -->
+  <g transform="translate(192 225)">
+    <path d="M0 24 H24 V8 H48 V38 H72 V16 H96 V30 H120 V4 H144 V44 H168 V14 H192 V32 H216 V20 H240 V24 H264 V10 H288 V38 H312 V18 H336 V28 H360 V6 H384 V42 H408 V16 H432 V24" fill="none" stroke="#ff4d9a" stroke-width="4" stroke-linejoin="miter" filter="url(#glow-pink)"/>
+    <text x="452" y="30" fill="#ff4d9a" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" letter-spacing="2">8-BIT SIGNAL / 100%</text>
+  </g>
+
+  <!-- loadout chips -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" font-weight="700">
+    <g transform="translate(192 292)"><rect width="92" height="34" rx="5" fill="#11162a" stroke="#5ee7ff"/><text x="46" y="22" text-anchor="middle" fill="#5ee7ff">JAVA</text></g>
+    <g transform="translate(294 292)"><rect width="132" height="34" rx="5" fill="#171327" stroke="#a36cff"/><text x="66" y="22" text-anchor="middle" fill="#c9a7ff">SPRING BOOT</text></g>
+    <g transform="translate(436 292)"><rect width="132" height="34" rx="5" fill="#11162a" stroke="#5ee7ff"/><text x="66" y="22" text-anchor="middle" fill="#5ee7ff">TYPESCRIPT</text></g>
+    <g transform="translate(578 292)"><rect width="112" height="34" rx="5" fill="#211322" stroke="#ff4d9a"/><text x="56" y="22" text-anchor="middle" fill="#ff82b8">AI AGENTS</text></g>
+    <g transform="translate(700 292)"><rect width="82" height="34" rx="5" fill="#161a20" stroke="#ffd166"/><text x="41" y="22" text-anchor="middle" fill="#ffd166">MCP</text></g>
+    <g transform="translate(792 292)"><rect width="118" height="34" rx="5" fill="#111b19" stroke="#58f5c3"/><text x="59" y="22" text-anchor="middle" fill="#58f5c3">KUBERNETES</text></g>
+  </g>
+
+  <!-- decorative pixels -->
+  <g opacity="0.9">
+    <rect x="1085" y="100" width="12" height="12" fill="#5ee7ff"/>
+    <rect x="1113" y="100" width="12" height="12" fill="#ff4d9a"/>
+    <rect x="1099" y="114" width="12" height="12" fill="#a36cff"/>
+    <rect x="1127" y="128" width="12" height="12" fill="#ffd166"/>
+    <rect x="1071" y="142" width="12" height="12" fill="#58f5c3"/>
+  </g>
+</svg>
