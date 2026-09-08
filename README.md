@@ -1,107 +1,44 @@
-<p align="center">
-  <img src="./assets/chiptune-header.svg" width="100%" alt="Chandra Aji Anindra — Full Stack and Applied AI Engineer" />
-</p>
+![Chandra — ASCII tracker with stereo scopes, four technology channels, project instruments, and an automation envelope](./assets/profile-tracker.svg)
+9+ years shipping production software.
 
-<p align="center">
-  <a href="https://chndranndr.github.io/"><b>PORTFOLIO</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/chndranndr?tab=repositories"><b>REPOSITORIES</b></a>
-  &nbsp;·&nbsp;
-  <a href="#03--featured-tracks"><b>FEATURED BUILDS</b></a>
-</p>
+[Portfolio](https://chndranndr.github.io/) · [Repositories](https://github.com/chndranndr?tab=repositories) · [Project instruments](#02--project-instruments)
 
-```text
-┌─ NOW PLAYING ───────────────────────────────────────────────────────┐
-│ ROLE       Senior Full Stack / Applied AI Engineer                 │
-│ XP         9+ years shipping production software                   │
-│ MAIN       Java · Spring Boot · TypeScript · React                 │
-│ SPECIAL    Distributed systems · AI agents · MCP · developer tools │
-│ SIDE QUEST Japanese learning tools · Unreal / game development     │
-└────────────────────────────────────────────────────────────────────┘
-```
+## `01` / CHANDRA.TRK
 
-## 01 // PLAYER PROFILE
+I build production software across backend, frontend, infrastructure, and AI workflows. My foundation is **Java, Spring Boot, and distributed systems**; my recent work focuses on **TypeScript products and practical AI tooling**.
 
-I build production software across **backend, frontend, infrastructure, and AI workflows**. My core background is Java/Spring and distributed systems; more recently I have been building TypeScript products and AI-native tooling around agents, RAG, MCP, and deterministic application workflows.
+| Track | Instrument | Stack |
+| :--- | :--- | :--- |
+| `01` | **Backend** | Java · Spring Boot · Scala · Python · Kafka · Redis |
+| `02` | **Product** | TypeScript · React · Node.js · Playwright · Cypress |
+| `03` | **Applied AI** | AI agents · RAG · MCP · LLM APIs |
+| `04` | **Platform** | Docker · Kubernetes · AWS · CI/CD · Grafana |
 
-My default engineering bias: **keep the system understandable, observable, testable, and boring where boring is useful.** Use AI where it adds leverage—not where ordinary code is more reliable.
+**Data layer:** PostgreSQL · MySQL · Neo4j · Elasticsearch
 
-## 02 // LOADOUT
+## `02` / Project instruments
 
-<table>
-<tr>
-<td valign="top" width="50%">
+| Slot | Project | Signal |
+| :--- | :--- | :--- |
+| `01` | **[MERATUS](https://github.com/chndranndr/fire-tracker)** | Indonesian wildfire intelligence: FIRMS ingestion, concession overlays, and investigative data with explicit evidence boundaries. **Python · Geospatial · Data pipelines** |
+| `02` | **[Job Sequencer](https://github.com/chndranndr/job-sequencer)** | Local-first job-search dashboard with in-process AI workflows and deterministic orchestration. **TypeScript · Node.js · Pi SDK** |
+| `03` | **[Study Canvas](https://github.com/chndranndr/study-canvas)** | Local-first Japanese learning for Android tablets, with a zoomable canvas, stylus handwriting, adaptive practice, and AI tutoring. **Kotlin · Jetpack Compose · Room · Gemini** |
+| `04` | **[Clueless](https://github.com/chndranndr/clueless)** | Windows desktop assistant for screen-aware technical help: screen capture, prompts, and streaming answers in an overlay. Development build. **JavaScript · Electron · Pi SDK** |
 
-**BACKEND / SYSTEMS**
-
-`Java` `Spring Boot` `Scala` `Python`  
-`REST` `Microservices` `Kafka` `Redis`  
-`PostgreSQL` `MySQL` `Neo4j` `Elasticsearch`
-
-</td>
-<td valign="top" width="50%">
-
-**PRODUCT / AI**
-
-`TypeScript` `React` `Node.js`  
-`LLM APIs` `AI Agents` `RAG` `MCP`  
-`Playwright` `Cypress`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**PLATFORM**
-
-`Docker` `Kubernetes` `AWS`  
-`GitHub Actions` `GitLab CI` `Jenkins`  
-`Grafana` `Kibana`
-
-</td>
-<td valign="top">
-
-**CURRENT SIGNAL**
-
-`Applied AI Engineering`  
-`Agentic developer workflows`  
-`Local-first software`  
-`Unreal Engine`
-
-</td>
-</tr>
-</table>
-
-## 03 // FEATURED TRACKS
-
-| Track | What it is | Stack / signal |
-| --- | --- | --- |
-| **[MERATUS](https://github.com/chndranndr/fire-tracker)** | Geospatial intelligence dashboard for Indonesian wildfire hotspots, FIRMS ingestion, concession overlays, and evidence-separated investigative data. | `Python` `Geospatial` `GitHub Actions` `Data pipelines` |
-| **[Job Sequencer](https://github.com/chndranndr/job-sequencer)** | Local-first job-search dashboard with in-process AI workflows and deterministic orchestration around external job sources. | `TypeScript` `Node.js` `Pi SDK` `AI agents` |
-| **[NihongoFlow](https://github.com/chndranndr/NihongoFlow)** | Minimal Japanese learning app with kana, kanji, vocabulary, grammar, conversation, and AI-assisted learning features. | `React` `TypeScript` `Gemini` `Capacitor` |
-| **[Book Lending](https://github.com/chndranndr/book-lending)** | Self-contained book-lending microservice with authentication, persistence, API docs, and Docker-first execution. | `Java 21` `Spring Boot` `JPA` `SQLite` `Docker` |
-
-## 04 // ENGINEERING MODS
+## `03` / Automation
 
 ```text
-[01] PRODUCTION FIRST     → design for failure, latency, observability, recovery
-[02] DETERMINISTIC CORE   → normal code for rules; AI for ambiguity and leverage
-[03] DOCS ARE CODE        → architecture decisions and constraints stay explicit
-[04] SMALL FEEDBACK LOOPS → tests, evals, CI gates, fast local verification
-[05] SHIP > THEATER       → prefer working systems over fashionable abstractions
+ROW  EVENT             ACTION
+00   PRODUCTION FIRST  Plan for failure, latency, and recovery.
+04   DETERMINISM       Code for rules. AI for ambiguity.
+08   OBSERVABILITY     Make system behavior inspectable.
+0C   DOCUMENTATION     Keep decisions and constraints explicit.
+10   FEEDBACK          Build -> test -> evaluate -> iterate.
+14   SIMPLICITY        Ship useful software. Cut unnecessary complexity.
 ```
 
-## 05 // SIDE QUESTS
-
-Outside production engineering, I build tools for **Japanese learning**, experiment with **AI-first product workflows**, and study **game development with Unreal Engine**.
+**Side channels:** Japanese learning tools · Unreal Engine · game development
 
 ```text
-♫  chiptune mode: ON
-> build something useful
-> reduce unnecessary complexity
-> repeat
+ [>] LOOP     __|~~~|___|~~~|___|~~~|___     END OF PATTERN
 ```
-
-<p align="center">
-  <sub>CHNDRANNDR // INSERT COIN TO CONTINUE</sub>
-</p>
