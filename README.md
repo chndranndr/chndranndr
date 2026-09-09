@@ -13,8 +13,8 @@ I build production software across backend, frontend, infrastructure, and AI wor
 | `02` | **Frontend** | TypeScript · React · Node.js · Playwright · Cypress |
 | `03` | **Applied AI** | Pi SDK · RAG · MCP · LLM APIs |
 | `04` | **Platform** | Docker · Kubernetes · AWS · CI/CD · Grafana |
+| `05` | **Data** | PostgreSQL · MySQL · Neo4j · Elasticsearch |
 
-**Data layer:** PostgreSQL · MySQL · Neo4j · Elasticsearch
 
 ## `02` / Project instruments
 
