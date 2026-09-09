@@ -10,8 +10,8 @@ I build production software across backend, frontend, infrastructure, and AI wor
 | Track | Instrument | Stack |
 | :--- | :--- | :--- |
 | `01` | **Backend** | Java · Spring Boot · Scala · Python · Kafka · Redis |
-| `02` | **Product** | TypeScript · React · Node.js · Playwright · Cypress |
-| `03` | **Applied AI** | AI agents · RAG · MCP · LLM APIs |
+| `02` | **Frontend** | TypeScript · React · Node.js · Playwright · Cypress |
+| `03` | **Applied AI** | Pi SDK · RAG · MCP · LLM APIs |
 | `04` | **Platform** | Docker · Kubernetes · AWS · CI/CD · Grafana |
 
 **Data layer:** PostgreSQL · MySQL · Neo4j · Elasticsearch
